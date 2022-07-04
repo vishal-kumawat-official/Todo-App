@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/61ebb60581.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <video autoplay loop class="v-background" muted plays-inline>
+        <source src="./v-back2.mp4" type="video/mp4">
+    </video>
+
+    <div class="wrapper">
+        <header>
+            <div class="topic">Todo App</div>
+            <div class="date"></div>
+        </header>
+        
+        <div class="inputfield">
+            <input type="text" placeholder="Add Your New Todo">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+        
+        <ul class="todoList">
+            <!-- li will come from local storage -->
+        </ul>
+
+        <div class="footer">
+            <span></span>
+            <button>Clear All</button>
+        </div>
+    </div>
+
+
+    <script src="./script.js" defer></script>
+</body>
+</html>
